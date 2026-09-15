@@ -22,11 +22,11 @@ Aside from hardware testing, a test bench was used to verify the design for both
 
 The waveform bellow is the simulation for blinking led. It shows the test cases: reset behavior, disabled output, and LED toggling.
 
-![Blinking LED waveform](lab1_waveforms\blinking_led_waveform.png)
+![Blinking LED waveform](lab1_waveforms/blinking_led_waveform.png)
 
 Similarly, the waveform bellow showcases every possible testcase. It reveals that the corresponding rgb output bit is active high when the corresponding switch is active high. It also exhibits that the rgb output is active low when two switches are active high. The waveform also reveals that the rgb output is active low when the reset switch is active high or when the enable switch is active low.
 
-![Blinking LED waveform](lab1_waveforms\rgb_waveform.png)
+![Blinking LED waveform](lab1_waveforms/rgb_waveform.png)
 
 ## Known Issues or Limitations:
 
